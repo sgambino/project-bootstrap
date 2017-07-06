@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap 4</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="../lib/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="container-fluid">
+  <h3>Bootstrap 4: Components - Alerts (cont)</h3>
+  <hr>
+  <div class="alert alert-success alert-dismissable show fade" role="alert">
+    <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
+    <strong>Success!</strong> Lorem ipsum dolor.
+  </div>
+  <div class="alert alert-warning alert-dismissable show fade" role="alert">
+    <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
+    <strong>Warning!</strong> Lorem ipsum dolor.
+  </div>
+  <div class="alert alert-info alert-dismissable show fade" role="alert">
+    <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
+    <strong>Info!</strong> Lorem ipsum dolor.
+  </div>
+  <div class="alert alert-danger alert-dismissable show fade" role="alert">
+    <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
+    <strong>Danger!</strong> Lorem ipsum dolor.
+  </div>
+</body>
+<!-- Latest compiled and minified JavaScript -->
+<script src="../lib/jquery-3.1.1.slim.min.js"></script>
+<script src="../lib/tether.min.js"></script>
+<script src="../lib/bootstrap.min.js"></script>
+<script>
+  $(".alert-success").on("closed.bs.alert",function(){
+    console.log("clicked on close button");
+    $(".alert").alert("close");
+
+  })
+</script>
+</html>

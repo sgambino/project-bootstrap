@@ -1,0 +1,18 @@
+body {
+  background: #eee;
+}
+small {
+  font-size: 60%;
+}
+a {
+  padding: 0.5em;
+  border-radius: 5px;
+}
+img {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin-bottom: 1em;
+}
+img.img-300 {
+  width: 300px;
+  height: auto;
+}

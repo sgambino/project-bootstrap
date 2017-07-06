@@ -1,0 +1,37 @@
+html, body {
+  height: 100%;
+}
+
+body{
+  font-family: arial;
+  background: #16a085;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.user-card {
+  display: flex;
+  background: #f5f5f5;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  max-width: 600px;
+}
+.avatar {
+  margin-right: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+img {
+  width: 150px;
+  height: 150px;
+}
+.user-info h3{
+  text-transform: capitalize;
+}
+.user-info h5{
+  text-transform: uppercase;
+}
+.user-info p{
+  font-variant: small-caps;
+}

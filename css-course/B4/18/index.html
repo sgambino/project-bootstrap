@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap 4</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="../lib/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="container-fluid">
+  <h1>Bootstrap 4: Buttons (default and outline)</h1>
+  <hr>
+  <p><code>&lt;button&gt;</code> (default)</p>
+  <button class="btn btn-default" type="button">default</button>
+  <button class="btn btn-primary" type="button">primary</button>
+  <button class="btn btn-success" type="button">success</button>
+  <button class="btn btn-info" type="button">buttinfoon</button>
+  <button class="btn btn-warning" type="button">warning</button>
+  <button class="btn btn-danger" type="button">danger</button>
+  <button class="btn btn-primary btn-link">Google</button>
+  <hr>
+  <p><code>&lt;a&gt;</code></p>
+  <a href="http://csscasts.com" class="btn btn-success">CSSCasts</a>
+  <hr>
+  <p><code>&lt;input&gt;</code></p>
+  <input class="btn btn-warning" type="button" value="Submit">
+  <input class="btn btn-info" type="reset" value="Reset">
+  <hr>
+  <p><code>&lt;button&gt;</code> (outline class)</p>
+  <button class="btn btn-outline-default" type="button">button</button>
+  <button class="btn btn-outline-primary" type="button">button</button>
+  <button class="btn btn-outline-success" type="button">button</button>
+  <button class="btn btn-outline-info" type="button">button</button>
+  <button class="btn btn-outline-warning" type="button">button</button>
+  <button class="btn btn-outline-danger" type="button">button</button>
+</body>
+<!-- Latest compiled and minified JavaScript -->
+<script src="../lib/jquery-3.1.1.slim.min.js"></script>
+<script src="../lib/tether.min.js"></script>
+<script src="../lib/bootstrap.min.js"></script>
+<script>
+  $(".alert-success").on("closed.bs.alert",function(){
+    console.log("clicked on close button");
+    $(".alert").alert("close");
+
+  })
+</script>
+
+</html>
