@@ -1,0 +1,25 @@
+body {
+  font-family: arial;
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 1em;
+  background-color: #eee;
+}
+
+h2 {
+  text-align: center;
+  color: #27ae60;
+  text-size: 2px 2px 0px #555;
+}
+p {
+  color: rgba(127, 140, 141,1.0);
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.blue {
+  color: blue;
+}
