@@ -6,8 +6,8 @@ in Udemy. The purpose of the course was to learn Bootstrap basics.
 ## Reference information
 Listed below are the sites where various artifacts can be found that are used in
 the projects listed. For each project noted, the bulleted lists indicate the
-bootstrap elements that are explored. Note that these websites only represent
-the front-end aspect of the site. There is no backend included.
+bootstrap elements that are explored. Note that these projects only represent
+the front-end side. There is no backend included.
 
 ### SITES:
 - (Google Fonts)[https://fonts.google.com/]
